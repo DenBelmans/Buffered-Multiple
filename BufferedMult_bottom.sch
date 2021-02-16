@@ -90,28 +90,6 @@ F 3 "~" H 4400 6400 50  0001 C CNN
 	1    4400 6400
 	0    1    1    0   
 $EndComp
-$Comp
-L Diode:1N4148 D1
-U 1 1 5FFD9D43
-P 4700 6400
-F 0 "D1" H 4700 6617 50  0000 C CNN
-F 1 "1N4148" H 4700 6526 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4700 6225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4700 6400 50  0001 C CNN
-	1    4700 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D2
-U 1 1 5FFDAB0E
-P 4700 7000
-F 0 "D2" H 4700 7217 50  0000 C CNN
-F 1 "1N4148" H 4700 7126 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4700 6825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4700 7000 50  0001 C CNN
-	1    4700 7000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4850 6400 5100 6400
 Wire Wire Line
@@ -666,4 +644,26 @@ Wire Wire Line
 	3550 5700 4150 5700
 Wire Wire Line
 	4150 5700 4150 5450
+$Comp
+L Diode:1N5817 D1
+U 1 1 602D1284
+P 4700 6400
+F 0 "D1" H 4700 6617 50  0000 C CNN
+F 1 "1N5817" H 4700 6526 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4700 6225 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4700 6400 50  0001 C CNN
+	1    4700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5817 D2
+U 1 1 602D2372
+P 4700 7000
+F 0 "D2" H 4700 6783 50  0000 C CNN
+F 1 "1N5817" H 4700 6874 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4700 6825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4700 7000 50  0001 C CNN
+	1    4700 7000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
